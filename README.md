@@ -52,6 +52,9 @@ source env/bin/activate
 
 # 4. Install dependencies
 pip install -r requirements.txt
+
+# 5. Run the app
+streamlit run app.py
 ```
 
 ### Option 2: Using Conda 
@@ -61,9 +64,12 @@ git clone https://github.com/your-username/news-summarizer.git
 cd news-summarizer
 
 # 2. Create and activate conda environment
-conda create --name news-env python=3.10 -y
-conda activate news-env
+conda create -p venv python=3.10
+conda activate venv/
 
 # 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Run the app
+streamlit run app.py
 
