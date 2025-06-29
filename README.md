@@ -34,7 +34,7 @@ This is a simple Streamlit app that summarizes news articles and performs sentim
 
 ## ⚙️ Setup Instructions
 
-### Option 1: Using `venv` (Recommended)
+### Option 1: Using `venv` 
 
 ```bash
 # 1. Clone the repository
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### Option 2: Using Conda 
+### Option 2: Using Conda (Recommended)
 ```bash
 # 1. Clone the repository
 git clone https://github.com/your-username/news-summarizer.git
