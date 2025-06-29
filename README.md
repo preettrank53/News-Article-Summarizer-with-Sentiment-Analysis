@@ -38,7 +38,7 @@ This is a simple Streamlit app that summarizes news articles and performs sentim
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/news-summarizer.git
+git clone https://github.com/preettrank53/News-Article-Summarizer-with-Sentiment-Analysis.git
 cd news-summarizer
 
 # 2. Create a virtual environment
@@ -60,7 +60,7 @@ streamlit run app.py
 ### Option 2: Using Conda (Recommended)
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/news-summarizer.git
+git clone https://github.com/preettrank53/News-Article-Summarizer-with-Sentiment-Analysis.git
 cd news-summarizer
 
 # 2. Create and activate conda environment
