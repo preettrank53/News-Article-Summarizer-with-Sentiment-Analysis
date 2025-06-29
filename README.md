@@ -55,6 +55,7 @@ pip install -r requirements.txt
 ```
 
 ### Option 2: Using Conda 
+```bash
 # 1. Clone the repository
 git clone https://github.com/your-username/news-summarizer.git
 cd news-summarizer
