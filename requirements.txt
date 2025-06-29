@@ -1,0 +1,5 @@
+streamlit
+textblob
+lxml
+newspaper3k
+nltk
