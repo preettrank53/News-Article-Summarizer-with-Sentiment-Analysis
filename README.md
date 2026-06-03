@@ -1,28 +1,27 @@
-# 📰 News Article Summarizer + Sentiment Analyzer
+# News Article Summarizer with Sentiment Analysis
 
-This is a simple Streamlit app that summarizes news articles and performs sentiment analysis using NLP. Just paste a URL of a news article, and the app will:
-- Extract the title, authors, and publish date  
-- Summarize the article  
-- Analyze its sentiment (Positive / Neutral / Negative)
+A Streamlit-based application that extracts metadata from a news article URL, generates a concise summary, and performs sentiment analysis using standard NLP libraries.
 
----
+## Overview
 
-## 🚀 Live Demo
+Provide a news article URL and the application will:
 
-> Not available yet. You can run it locally by following the instructions below 👇
+- Extract the article title, authors, and publish date
+- Generate a summary of the article content
+- Classify sentiment as **Positive**, **Neutral**, or **Negative**
 
----
+## Live Demo
 
-## 🛠️ Features
+A hosted demo is not currently available. Run the application locally using the instructions below.
 
-- **Summary Generation** using `newspaper3k`
-- **Sentiment Analysis** using `TextBlob`
-- Simple and clean **Streamlit UI**
-- Handles **403 errors** with random user-agent headers
+## Key Features
 
----
+- **Summary generation** using `newspaper3k`
+- **Sentiment analysis** using `TextBlob`
+- **Streamlit UI** for interactive usage
+- **403 handling** via randomized user-agent headers (to improve extraction reliability)
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.7+
 - `streamlit`
@@ -30,11 +29,9 @@ This is a simple Streamlit app that summarizes news articles and performs sentim
 - `newspaper3k`
 - `textblob`
 
----
+## Installation and Setup
 
-## ⚙️ Setup Instructions
-
-### Option 1: Using `venv` 
+### Option 1: Virtual Environment (`venv`)
 
 ```bash
 # 1. Clone the repository
@@ -57,7 +54,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### Option 2: Using Conda (Recommended)
+### Option 2: Conda (Recommended)
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/preettrank53/News-Article-Summarizer-with-Sentiment-Analysis.git
@@ -72,4 +70,4 @@ pip install -r requirements.txt
 
 # 4. Run the app
 streamlit run app.py
-
+```
